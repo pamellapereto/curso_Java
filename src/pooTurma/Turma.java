@@ -1,6 +1,5 @@
 package pooTurma;
 
-
 public class Turma {
 	//Atributos da classe
 	String nome;
@@ -10,6 +9,10 @@ public class Turma {
 	//Construtor
 	public Turma() {
 		System.out.println("_______________");
+	}
+	
+	public void beberAguaAluno() {
+		beberAgua();
 	}
 	
 	//Métodos
@@ -23,5 +26,9 @@ public class Turma {
 		
 	void desligarPc() {
 		System.out.println("Computador desligado");
+	}
+	
+	private void beberAgua() {
+		System.out.println("Ir ao bebedouro para beber água");
 	}
 }
